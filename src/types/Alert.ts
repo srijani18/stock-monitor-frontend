@@ -1,9 +1,11 @@
-export interface Alert {
-    id: number;
-    symbol: string;
-    condition: string; // ">" or "<"
-    targetPrice: number;
-    triggered: boolean;
-    triggeredAt?: string; // ISO string
-  }
+
   
+
+export interface Alert {
+  id: number;
+  symbol: string;
+  condition: ">" | "<";
+  targetPrice: number;
+  triggered: boolean;
+  triggeredAt?: string;
+}

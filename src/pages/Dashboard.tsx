@@ -255,13 +255,7 @@ useEffect(() => {
         </Col>
       </Row>
 
-      {/* Alerts Section */}
-      <h5 className="mb-3">🚨 Active Alerts</h5>
-      <Row className="mb-5">
-        <Col md={6}>
-          <ActiveAlerts alerts={sampleAlerts} />
-        </Col>
-      </Row>
+      
     </Container>
   );
 };
